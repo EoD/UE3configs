@@ -1,0 +1,30 @@
+#Ignore everything
+*
+
+#Except...
+!.gitignore
+
+#Sanctum2
+!Sanctum2/
+!Sanctum2/Engine/
+!Sanctum2/Engine/Config/
+!Sanctum2/Engine/Config/*
+!Sanctum2/Engine/Config/Linux/*
+
+#Borderlands2
+!Borderlands\ 2/
+!Borderlands\ 2/steamassets/
+!Borderlands\ 2/steamassets/engine/
+!Borderlands\ 2/steamassets/engine/config/
+!Borderlands\ 2/steamassets/engine/config/*ini
+
+#ARK
+!ARK/
+!ARK/Engine/
+!ARK/Engine/Config/
+!ARK/Engine/Config/*
+!ARK/Engine/Config/Linux/*
+!ARK/Engine/Config/Windows/*
+
+*.bak
+*.vdf
